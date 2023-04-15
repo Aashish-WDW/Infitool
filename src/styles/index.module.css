@@ -1,0 +1,113 @@
+.container2 {
+    width: 100%;
+    background-color: #f6f8fa !important;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 10%;
+    height: auto;
+    background-color: #f6f8fa !important;
+}
+
+.Ads {
+    width: 30%;
+    height: auto;
+    background-color: #f6f8fa !important;
+}
+
+.Main {
+    width: 60%;
+    height: auto;
+    background-color: #f6f8fa !important;
+    padding: 10px;
+}
+
+.cards {
+    /* height: 400px;
+    width: 100%;*/
+    background-color: #f6f8fa;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border: 1px solid #ced4da; */
+    border-radius: 0.375rem;
+    display: grid;
+    grid-template-rows: 80px auto;
+    grid-template-areas:
+        "Htext"
+        "Htools";
+    height: fit-content;
+}
+
+.HeaderText {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    padding: 25px;
+    text-align: left;
+    width: fit-content;
+    font-size: 26px;
+}
+
+.Htext {
+    height: 100px;
+    width: 100%;
+}
+
+.Htools {
+    padding: 20px;
+}
+
+.HCardh1 {
+    color: #1c1b1b;
+    font-weight: 500;
+    padding: 25px;
+    text-align: left;
+    width: fit-content;
+    font-size: 26px;
+    /* background-color: #1c1b1b; */
+    width: 100%;
+    border-top-right-radius: 0.375rem;
+    border-top-left-radius: 0.375rem;
+}
+
+.card1,
+.card2,
+.card3 {
+    color: white;
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    height: fit-content;
+    background-color: #f3f3f4 !important;
+    display: flex;
+}
+
+.pew2Text {
+    color: black;
+    font-weight: bold;
+    font-size: smaller;
+    border: none;
+    padding: 10px;
+}
+
+.pew1 {
+    width: fit-content;
+}
+
+.a {
+    text-decoration: none !important;
+}
+
+.lolol {
+    padding: 10px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #1c1b1b;
+}

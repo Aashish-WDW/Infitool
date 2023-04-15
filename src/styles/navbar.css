@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #1c1b1b !important;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    color: #4285f4 !important;
+}
+
+.navbar-toggler {
+    margin-top: 50px !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: #1c1b1b;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    font-size: small;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.boxy {
+    width: 80px;
+}
