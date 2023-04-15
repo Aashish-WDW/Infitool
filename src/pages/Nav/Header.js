@@ -7,7 +7,7 @@ export default function Header() {
         <>
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <script src="https://kit.fontawesome.com/e5def6309a.js" crossorigin="anonymous" async></script>
+                <script src="https://kit.fontawesome.com/e5def6309a.js" crossOrigin="anonymous" async></script>
             </Head>
             <nav class={`navbar navbar-expand-lg bg-dark ${styles['navbar']}`}>
                 <div class="container-fluid">
