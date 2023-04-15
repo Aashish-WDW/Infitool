@@ -1,5 +1,6 @@
 import styles from '../../styles/navbar.module.css';
 import Head from "next/head";
+import Link from 'next/link'
 
 export default function Header() {
     return (
@@ -20,117 +21,117 @@ export default function Header() {
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <ul class="navbar-nav  mb-2 mb-lg-0">
                                 <div class="dropdown">
-                                    <a class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    <div class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         WEBSITE
-                                    </a>
+                                    </div>
                                     <ul class={`dropdown-menu ${styles['dropdown-menu']}`}>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Website-Tools/Domain-Age-Checker">Domain Age Checker</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Website-Tools/Domain-Authority-Checker">Domain Authority Checker</a>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Website-Tools/Domain-Age-Checker">Domain Age Checker</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Website-Tools/Domain-Authority-Checker">Domain Authority Checker</Link>
                                         </li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/smallink/Smallink">URL Shortner</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Website-Tools/QR-Generator">QR Generator</a></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/smallink/Smallink">URL Shortner</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Website-Tools/QR-Generator">QR Generator</Link></li>
                                     </ul>
                                 </div>
                             </ul>
 
                             <ul class="navbar-nav  mb-2 mb-lg-0">
                                 <div class="dropdown">
-                                    <a class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    <div class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         TEXT
-                                    </a>
+                                    </div>
                                     <ul class={`dropdown-menu ${styles['dropdown-menu']}`}>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Text-Speech">Text To Speech</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Word-Counter">Word Counter</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Case-Converter">Case Converter</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Morse-Text">Morse Text</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Morse-Generator">Morse Generator</a></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Text-Speech">Text To Speech</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Word-Counter">Word Counter</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Case-Converter">Case Converter</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Morse-Text">Morse Text</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Text-Tools/Morse-Generator">Morse Generator</Link></li>
                                     </ul>
                                 </div>
                             </ul>
 
                             <ul class="navbar-nav  mb-2 mb-lg-0">
                                 <div class="dropdown">
-                                    <a class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    <div class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         PASSWORD
-                                    </a>
+                                    </div>
                                     <ul class={`dropdown-menu ${styles['dropdown-menu']}`}>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Password-Tools/Password-Strength-Checker">Password
-                                            Strength</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Password-Tools/Random-Password-Genarator">Random
-                                            Password</a></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Password-Tools/Password-Strength-Checker">Password
+                                            Strength</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Password-Tools/Random-Password-Genarator">Random
+                                            Password</Link></li>
                                     </ul>
                                 </div>
                             </ul>
 
                             <ul class="navbar-nav  mb-2 mb-lg-0">
                                 <div class="dropdown">
-                                    <a class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    <div class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         UNIT
-                                    </a>
+                                    </div>
                                     <ul class={`dropdown-menu ${styles['dropdown-menu']}`}>
-                                        <li><a href="/Unit-Tools/Area-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Area Converter</a></li>
-                                        <li><a href="/Unit-Tools/Byte-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Byte Converter</a></li>
-                                        <li><a href="/Unit-Tools/Length-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Length Converter</a></li>
-                                        <li><a href="/Unit-Tools/Power-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Power Converter</a></li>
-                                        <li><a href="/Unit-Tools/Speed-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Speed Converter</a></li>
-                                        <li><a href="/Unit-Tools/Temperature-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Temperture Converter</a></li>
-                                        <li><a href="/Unit-Tools/Time-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Time Converter</a></li>
-                                        <li><a href="/Unit-Tools/Volume-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Volume Converter</a></li>
-                                        <li><a href="/Unit-Tools/Weight-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Weight Converter</a></li>
+                                        <li><Link href="/Unit-Tools/Area-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Area Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Byte-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Byte Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Length-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Length Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Power-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Power Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Speed-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Speed Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Temperature-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Temperture Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Time-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Time Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Volume-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Volume Converter</Link></li>
+                                        <li><Link href="/Unit-Tools/Weight-Converter" class={`dropdown-item ${styles['dropdown-item']}`}>Weight Converter</Link></li>
                                     </ul>
                                 </div>
                             </ul>
 
                             <ul class="navbar-nav  mb-2 mb-lg-0">
                                 <div class="dropdown">
-                                    <a class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    <div class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         CALCULATORS
-                                    </a>
+                                    </div>
                                     <ul class={`dropdown-menu ${styles['dropdown-menu']}`}>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Percentage-Calculator">Percentage Calculator</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Discount-Calculator">Discount Calculator</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Age-Calculator">Age Calculator</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Loan-Calculator">Loan Calculator</a></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Percentage-Calculator">Percentage Calculator</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Discount-Calculator">Discount Calculator</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Age-Calculator">Age Calculator</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Calcus-Tools/Loan-Calculator">Loan Calculator</Link></li>
                                     </ul>
                                 </div>
                             </ul>
 
                             <ul class="navbar-nav  mb-2 mb-lg-0">
                                 <div class="dropdown">
-                                    <a class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    <div class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         BINARY
-                                    </a>
+                                    </div>
                                     <ul class={`dropdown-menu ${styles['dropdown-menu']}`}>
-                                        <li><a href="/Binary-Tools/ASCII-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>ASCII To Binary</a></li>
-                                        <li><a href="/Binary-Tools/Binary-ASCII" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To ASCII</a></li>
-                                        <li><a href="/Binary-Tools/Decimal-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Decimal To Binary</a></li>
-                                        <li><a href="/Binary-Tools/Binary-Decimal" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Decimal</a></li>
-                                        <li><a href="/Binary-Tools/Binary-Hexdecimal" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Hex</a></li>
-                                        <li><a href="/Binary-Tools/Hexdecimal-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Hex To Binary</a></li>
-                                        <li><a href="/Binary-Tools/Text-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Text To Binary</a></li>
-                                        <li><a href="/Binary-Tools/Binary-Text" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Text</a></li>
-                                        <li><a href="/Binary-Tools/Octal-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Octal To Binary</a></li>
-                                        <li><a href="/Binary-Tools/Binary-Octal" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Octal</a></li>
+                                        <li><Link href="/Binary-Tools/ASCII-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>ASCII To Binary</Link></li>
+                                        <li><Link href="/Binary-Tools/Binary-ASCII" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To ASCII</Link></li>
+                                        <li><Link href="/Binary-Tools/Decimal-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Decimal To Binary</Link></li>
+                                        <li><Link href="/Binary-Tools/Binary-Decimal" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Decimal</Link></li>
+                                        <li><Link href="/Binary-Tools/Binary-Hexdecimal" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Hex</Link></li>
+                                        <li><Link href="/Binary-Tools/Hexdecimal-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Hex To Binary</Link></li>
+                                        <li><Link href="/Binary-Tools/Text-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Text To Binary</Link></li>
+                                        <li><Link href="/Binary-Tools/Binary-Text" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Text</Link></li>
+                                        <li><Link href="/Binary-Tools/Octal-Binary" class={`dropdown-item ${styles['dropdown-item']}`}>Octal To Binary</Link></li>
+                                        <li><Link href="/Binary-Tools/Binary-Octal" class={`dropdown-item ${styles['dropdown-item']}`}>Binary To Octal</Link></li>
                                     </ul>
                                 </div>
                             </ul>
 
                             <ul class="navbar-nav  mb-2 mb-lg-0">
                                 <div class="dropdown">
-                                    <a class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    <div class={`nav-link dropdown-toggle ${styles['nav-link']}`} id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         COLOR
-                                    </a>
+                                    </div>
                                     <ul class={`dropdown-menu ${styles['dropdown-menu']}`}>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Color-Tools/Hexcode-Genarator">Genarate Hex</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Color-Tools/Gradient-Genarator">Gradient</a></li>
-                                        <li><a class={`dropdown-item ${styles['dropdown-item']}`} href="/Color-Tools/Random-Gradient">Random Gradient</a></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Color-Tools/Hexcode-Genarator">Genarate Hex</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Color-Tools/Gradient-Genarator">Gradient</Link></li>
+                                        <li><Link class={`dropdown-item ${styles['dropdown-item']}`} href="/Color-Tools/Random-Gradient">Random Gradient</Link></li>
                                     </ul>
                                 </div>
                             </ul>
