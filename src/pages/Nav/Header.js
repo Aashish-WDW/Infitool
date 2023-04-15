@@ -11,7 +11,7 @@ export default function Header() {
             </Head>
             <nav class={`navbar navbar-expand-lg bg-dark ${styles['navbar']}`}>
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/">INFIT<i class="fa-solid fa-infinity"></i>L</a>
+                    <Link class="navbar-brand" href="/">INFIT<i class="fa-solid fa-infinity"></i>L</Link>
                     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
                         aria-label="Toggle navigation">
