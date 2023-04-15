@@ -4,6 +4,7 @@ import Head from "next/head";
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from './Nav/Header'
 import Footer from './Nav/Footer'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -11,9 +12,10 @@ export default function App({ Component, pageProps }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <Header/>
+      <Header />
       <Component {...pageProps} />
-      <Footer/>
+      <Footer />
+      <Analytics />
     </>
   );
 }
