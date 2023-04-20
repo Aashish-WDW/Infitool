@@ -31,7 +31,7 @@ import tex from '../icons/tex.svg';
 import gra from '../icons/gra.svg';
 import co from '../icons/co.svg';
 import Link from 'next/link';
-import Head from "next/head";
+import Head from 'next/head';
 
 export default function Home() {
   return (
